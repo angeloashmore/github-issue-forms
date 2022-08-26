@@ -1,0 +1,46 @@
+name: 🪄 Demo Form
+description: See how bugs can be reported using a form.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue demonstrates how GitHub Issues can be configured to use forms. All available input types are used below. This message is configured using a `markdown` field.
+
+      For more details on how to set up forms in your own repository, see: [Syntax for GitHub's form schema](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema).
+
+  - type: input
+    attributes:
+      id: sample-input
+      label: Input field
+      description: This is an `input` field.
+      placeholder: It supports placeholder content.
+
+  - type: textarea
+    attributes:
+      id: sample-textarea
+      label: Textarea field
+      description: This is a `textarea` field. This field has been marked as required.
+      placeholder: It also supports placeholder content.
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      id: sample-dropdown
+      label: Dropdown field
+      description: This is a `dropdown` field. Options can be set in the form configuration.
+      options:
+        - Apples
+        - Oranges
+        - Grapes
+        - Bananas
+
+  - type: checkboxes
+    attributes:
+      id: sample-checkboxes
+      label: Checkboxe fields
+      description: This is a `checkboxes` field. It can contain multiple checkboxes.
+      options:
+        - label: I am the world's greatest developer.
+        - label: The above statement is false.
+          required: true
