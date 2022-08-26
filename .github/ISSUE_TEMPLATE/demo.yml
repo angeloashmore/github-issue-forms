@@ -9,15 +9,15 @@ body:
         For more details on how to set up forms in your own repository, see: [Syntax for GitHub's form schema](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema).
 
   - type: input
+    id: sample-input
     attributes:
-      id: sample-input
       label: Input field
       description: This is an `input` field.
       placeholder: It supports placeholder content.
 
   - type: textarea
+    id: sample-textarea
     attributes:
-      id: sample-textarea
       label: Textarea field
       description: This is a `textarea` field. This field has been marked as required.
       placeholder: It also supports placeholder content.
@@ -25,8 +25,8 @@ body:
       required: true
 
   - type: dropdown
+    id: sample-dropdown
     attributes:
-      id: sample-dropdown
       label: Dropdown field
       description: This is a `dropdown` field. Options can be set in the form configuration.
       options:
@@ -36,8 +36,8 @@ body:
         - Bananas
 
   - type: checkboxes
+    id: sample-checkboxes
     attributes:
-      id: sample-checkboxes
       label: Checkboxe fields
       description: This is a `checkboxes` field. It can contain multiple checkboxes.
       options:
