@@ -6,7 +6,7 @@ body:
       value: |
         This issue demonstrates how GitHub Issues can be configured to use forms. All available input types are used below. This message is configured using a `markdown` field.
 
-      For more details on how to set up forms in your own repository, see: [Syntax for GitHub's form schema](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema).
+        For more details on how to set up forms in your own repository, see: [Syntax for GitHub's form schema](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema).
 
   - type: input
     attributes:
